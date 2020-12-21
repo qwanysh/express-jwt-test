@@ -1,0 +1,14 @@
+GET http://localhost:8000
+
+###
+
+GET http://localhost:8000/protected
+
+###
+
+GET http://localhost:8000/protected
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VybmFtZSIsImlhdCI6MTYwODU3NDI0N30.UkJGwM29VFXLZUt-Nqkna-oDTsNHY7nb6c9Bb9vSvqE
+
+###
+
+POST http://localhost:8000/login
